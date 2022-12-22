@@ -1,0 +1,106 @@
+@charset "UTF-8";
+html {
+    overflow-y: scroll;
+    /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+    /*Internet Explorerが独自に追加したプロパティ*/
+    /*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+}
+/* リセットおまじない--------------------------------- */
+.main{
+	margin-left: 20px;
+}
+
+#side {
+    width: 350px;
+}
+#side_content{
+    height: 100%;
+}
+body{
+	background-color: #f7f7f7;
+}
+/*マネー*/
+.big_title1 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:gold;
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+	
+.img1{
+	text-align: right;
+}
+
+/*ビジネス*/
+.big_title2 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:rgb(15, 83, 242);
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+
+/*トラベル*/
+.big_title3 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:green;
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+/*結婚・出産*/
+.big_title4 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:rgb(245, 129, 129);
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+/*ケガ・病気*/
+.big_title5 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:red;
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+/*葬祭*/
+.big_title6 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:rgb(97, 3, 97);
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+/*トラベル*/
+.big_title7 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:rgb(105, 94, 33);
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+
+/*その他*/
+.big_title8 h1{
+	color:aliceblue;
+	text-align: center;
+	background-color:tomato;
+	border-radius: 10px;
+	width: 200px;
+	margin:0px 500px;
+}
+

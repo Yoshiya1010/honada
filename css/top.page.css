@@ -1,0 +1,307 @@
+@charset "UTF-8";
+html {
+    overflow-y: scroll;
+    /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+    /*Internet Explorerが独自に追加したプロパティ*/
+    /*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+}
+/* リセットおまじない--------------------------------- */
+
+*{
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    /* outline: none; */
+    color: inherit;
+    /* text-decoration: none; */
+}
+img {
+    border: 0px;
+    vertical-align: bottom;
+}
+/* --------------------------------------------------- */
+/* サイト全体のフォント指定 */
+body {
+    font-family: "MS Pゴシック" ;
+    }
+main{
+    margin-bottom:100px;
+}
+header {
+    height: 60px;
+    background: #EEEAEC;
+    text-align: center;
+    position: fixed; 
+    width: 100%;
+}
+header ul {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+header li {
+    color: #ACACAC;
+    width: 25%;
+    line-height: 60px;
+    transition: 0.2s;
+    /*メニューをホバーした時の変化時間*/
+}
+header li:hover {
+    /*メニューをホバーしたときに色が変わる*/
+    color: #111;
+}
+article {
+    display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
+}
+#side {
+    width: 350px;
+}
+#side_content{
+    height: 100%;
+}
+.main{
+    margin-left: 20px;
+}
+#side {
+    width: 350px;
+}
+#side_content{
+    height: 100%;
+}
+body{
+    background-color: #F7F7F7;
+}
+/* h1だよ */
+/*マネー*/
+.big_title1 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:gold;
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+.img1{
+    text-align: right;
+}
+/*ビジネス*/
+.big_title2 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:rgb(15, 83, 242);
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+/*トラベル*/
+.big_title3 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:green;
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+/*結婚・出産*/
+.big_title4 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:rgb(245, 129, 129);
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+/*ケガ・病気*/
+.big_title5 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:red;
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+/*葬祭*/
+.big_title6 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:rgb(97, 3, 97);
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+/*トラベル*/
+.big_title7 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:rgb(105, 94, 33);
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+    
+}
+/*その他*/
+.big_title8 h1{
+    color:aliceblue;
+    text-align: center;
+    background-color:tomato;
+    border-radius: 10px;
+    width: 200px;
+    margin:70px 350px 30px 350px;
+}
+.big_title1 h2{
+    text-align: left;
+}
+.big_title2 h2{
+    text-align: left;
+}
+.big_title3 h2{
+    text-align: left;
+}
+.big_title4 h2{
+    text-align: left;
+}
+.big_title5 h2{
+    text-align: left;
+}
+.big_title6 h2{
+    text-align: left;
+}
+.big_title7 h2{
+    text-align: left;
+}
+.big_title8 h2{
+    text-align: left;
+}
+.big_title1 h3{
+    text-align: left;
+}
+.big_title2 h3{
+    text-align: left;
+}
+.big_title3 h3{
+    text-align: left;
+}
+.big_title4 h3{
+    text-align: left;
+}
+.big_title5 h3{
+    text-align: left;
+}
+.big_title6 h3{
+    text-align: left;
+}
+.big_title7 h3{
+    text-align: left;
+}
+.big_title8 h3{
+    text-align: left;
+}
+a {
+    color: rgb(6, 48, 215);
+    text-align: left;
+}
+.side_menu1{
+    font-size: 250%;
+    text-align: left;
+    margin-left: 20px;
+}
+.urutora a{
+    display: block;
+    text-align: left;
+}
+.urutoraz a{
+    display: block;
+    text-align: left;
+    font-size: 50px;
+    color: red;
+}
+.big_title{
+    margin-left: 5%;
+    line-height: 45px;
+}
+.big_title h1{
+    font-size: 40px;
+    font-weight: 100px;
+    font-family:cursive;
+}
+.main_content a{
+    font-size: 30px;
+    margin:40px 450px 15px 250px;
+
+}
+.main_content h1{
+    font-size: 45px;
+    margin-top: 30px;
+    margin:40px 450px 15px 250px;
+    background-color: rgb(246, 192, 12);
+    border-radius: 30px;
+}
+.img_money{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+}
+.img_5{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    background: #fff;
+}
+.slide img {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    left: 100%;
+    animation: slide-anime 15s ease infinite;
+}
+.slide img:nth-of-type(1) {animation-delay: 0s;}
+.slide img:nth-of-type(2) {animation-delay: 3s;}
+.slide img:nth-of-type(3) {animation-delay: 6s;}
+.slide img:nth-of-type(4) {animation-delay: 9s;}
+.slide img:nth-of-type(5) {animation-delay: 12s;}
+
+@keyframes slide-anime{
+    0% {left: 100%;}
+    2% {left: 0;}
+    18% {left: 0;}
+    20% {left: -100%;}
+    100% {left: -100%;}
+}
+

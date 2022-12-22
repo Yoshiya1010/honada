@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="サイトをキーワードで説明">
+    <meta name="description" content="どんなサイトかを短い文章で説明">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+    <link rel="icon" href="img/page_ikon.png">
+    <link rel="stylesheet" type="text/css" media="screen and ( min-width:769px )" href="css/error.css">
+    <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="css/style_sp.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <title>Error Answer</title>
+</head>
+<body>
+    <style>
+        .wrap {
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            height: 100%;
+            /* grid-auto-rows: 20000px; */
+            /* これのせいでページがやたら長くなっているよ */
+        }
+        .main_content {
+            background-color: #F7F7F7;
+        }
+        .side {
+            background: #F7F7F7;
+        }
+        .side_content {
+            position: sticky;
+            top: 0px;
+            background: #F7F7F7;
+        }
+    </style>
+    <div class="wrap">
+        <div class="side">
+            <div class="side_content">
+                <h2><img src="img/logo.png" alt="" width="100%" height="50%"></h2>
+                <form method="get" action="http://www.google.co.jp/search" target="blank">
+                    <!-- <input type=”text” name="query" size="30" maxlength="255" value=""> -->
+                    <input type="submit" name="btn" value="search">
+                    <input type="hidden" name="hl" value="ja">
+                    <input type="hidden" name="sitesearch" value="xxxxx.co.jp">
+                </form>
+                    <!-- "xxxxx.co.jp"の箇所に自身のサイトのドメインを設定することで、対象サイト内の検索を実行できます。 -->
+                <a href="#money">マネー</a>
+                <a href="#business">ビジネス</a>
+                <p>トラベル(リンク張ります)</p>
+                <p>結婚・出産(リンク張ります)</p>
+                <p>ケガ(リンク張ります)</p>
+                <p>葬祭(リンク張ります)</p>
+                <a href="#money">マネー</a>
+                <p>トラベル(リンク張ります)</p>
+                <p>その他(リンク張ります)</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_content">
+                <div class="gazou">
+                <img src="img/nayame.jpg" alt="100%" width="100%" height="100%">
+                </div>
+                <div class="coment1">
+                <h1>Error 448</h1>
+                </div>
+                <div class="coment2">
+                    <h1>お探しのページは見つからない </h1>
+                </div>
+                <div class="coment3">
+                    <h1>ﾄﾞﾝ(　ﾟдﾟ)ﾏｲ</h1>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>            
+</html>
